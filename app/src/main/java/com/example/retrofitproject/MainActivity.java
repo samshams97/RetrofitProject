@@ -27,11 +27,11 @@ public class MainActivity extends AppCompatActivity {
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         jsonPlaceHolder = retrofit.create(JsonPlaceHolder.class);
-        // sendPost();
+         sendPost();
         // getPosts();
         //  getComments();
        // updatePost();
-        updatePatch();
+     //   updatePatch();
 
     }
 
